@@ -61,6 +61,12 @@ if bashio::config.true 'lets_encrypt.accept_terms'; then
     fi
 fi
 
+if bashio::config.true 'update_ip'; then
+    bashio::log.warning "[Enabled] dukdns IP update"
+else
+    bashio::log.warning "[Disabled] dukdns IP update"
+fi
+
 # Run duckdns
 while true; do
 
