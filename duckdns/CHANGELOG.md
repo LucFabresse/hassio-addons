@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.6
+
+- Bool to turn off IP auto update (update_ip)
+
 ## 1.12.5
 
 - Fix bug causing DuckDNS to return KO, when aliases were configured
