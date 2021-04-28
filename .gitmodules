@@ -1,0 +1,3 @@
+[submodule "frp-client"]
+	path = frp-client
+	url = https://github.com/LucFabresse/hassio-frp-client
